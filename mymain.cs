@@ -53,6 +53,8 @@ namespace Main
             Console.WriteLine();
             Console.WriteLine("int sum = " + intSum);
             Console.WriteLine("real sum = " + realSum);
+            Console.WriteLine();
+            Console.WriteLine("ids in multiline comments: " + String.Join(", ", scanner.Ids.ToArray()));
 
             Console.ReadKey();
         }

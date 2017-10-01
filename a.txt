@@ -1,3 +1,8 @@
 begin ggg : ; := 7 99.9 5 
 1 
+// one line comment
+'stri   ew413ng'
+{
+multiline
+comment }
 ppp end
